@@ -1,8 +1,8 @@
 
 window.onload=cargado;
 function cargado(){
-	document.formulario.nombre.onfocus=entrar;
-	document.formulario.convertir.onsubmit =conversion;
+
+	document.formulario.convertir.onclick =conversion;
 
 }
 
